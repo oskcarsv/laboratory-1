@@ -86,4 +86,9 @@ main {
 
 
 /* Programming */
-
+.h2-programming {
+    font-family: 'Fraunces', serif;
+    color: #213555;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
