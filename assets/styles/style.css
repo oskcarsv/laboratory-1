@@ -45,33 +45,45 @@ body {
 /* Main */
 
 main {
-    margin: 100px;
+    margin: 0px 100px 0px 100px;
 }
 
-/* Introducction */
 
+/* Introducction */
 #introducction {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .text-introducction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;    
     width: 500px;
     height: 600px;
 }
 
+.h2-introducction {
+    font-family: 'Fraunces', serif;
+    color: #213555;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 .p-introducction {
-    margin-right: 35px;
     font-family: 'Forum', serif;
     color: #213555;
     font-size: 20px;
-    margin-bottom: 20px;
     letter-spacing: 1.5px;
     word-spacing: 5px;
 }
 
 .img-introducction {
-    max-width: 50px;
-    max-width: 50px;
     border-radius: 50%;
 }
+
+
+/* Programming */
+
