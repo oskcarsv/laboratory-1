@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+}
+
+body {
+}
+
+
+/* Header */
+.header-main {
+    padding: 15px;
+    background-color: #213555;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+#h1-header {
+    margin-left: 100px;
+    font-family: 'Fraunces', serif;
+    color: #F5EFE7;
+}
+
+.nav-main {
+    margin-right: 100px;
+}
+
+.item-nav {
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    color: #F5EFE7;
+}
+
+.item-nav:hover {
+    color: #F5EFE7;
+    font-size: 17px;
+}
+
+
+/* Main */
+
+main {
+    margin: 100px;
+}
+
+/* Introducction */
+
+#introducction {
+    display: flex;
+    align-items: center;
+}
+
+.text-introducction {
+    width: 500px;
+    height: 600px;
+}
+
+.p-introducction {
+    margin-right: 35px;
+    font-family: 'Forum', serif;
+    color: #213555;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+}
+
+.img-introducction {
+    max-width: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+}
