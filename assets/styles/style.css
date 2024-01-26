@@ -87,8 +87,44 @@ main {
 
 /* Programming */
 .h2-programming {
+    text-align: center;
     font-family: 'Fraunces', serif;
     color: #213555;
-    font-size: 30px;
+    font-size: 40px;
+    margin: 70px 0px 30px 0px;
+}
+
+.h3-programming {
+    font-family: 'Fraunces', serif;
+    color: #213555;
+    font-size: 20px;
     margin-bottom: 20px;
+}
+
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.content-languages {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-languages {
+    font-family: 'Forum', serif;
+    color: #213555;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+}
+
+.item-img-languages {
+    margin: 50px 20px;
+    width: "50px";
+    height: "50px";
 }
