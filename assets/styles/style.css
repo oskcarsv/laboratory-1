@@ -123,7 +123,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
   
   .item-programming,
@@ -163,13 +164,13 @@ main {
     margin-bottom: 20px;  
     text-decoration: none;
 }
-  
-    .item-a {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        width: 350px;
-    }
+
+.item-a {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
 
 
 /* Programming */
@@ -208,8 +209,6 @@ main {
     margin-left: 50px;
 }
 
-.item-img-languages {
-    margin: 50px 20px;
-    width: "50px";
-    height: "50px";
+.img-languages {
+    margin-top: 50px;
 }
