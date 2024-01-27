@@ -6,8 +6,8 @@
 /* Header */
 .header-main {
     padding: 15px;
-    background-color: #213555;
     display: flex;
+    background-color: #f5f1ee;
     align-items: center;
     justify-items: center;
     justify-content: space-between;
@@ -20,38 +20,58 @@
     box-shadow: 0 0 10px #000;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 
 #h1-header {
     margin-left: 100px;
     font-family: 'Fraunces', serif;
-    color: #F5EFE7;
+    color: #213555;
 }
 
 .nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 100px;
+}
+ 
+.main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 201, 229);
+    cursor: pointer;
+    border-radius: 15px;
+    width: 125px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.main-item:hover {
+    background-color: #FFDA82;
+}
+
+.main-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 201, 229);
+    cursor: pointer;
+    border-radius: 15px;
+    width: 125px;
+    height: 40px;
+}
+
+.main-item2:hover {
+    background-color: #FFDA82;
 }
 
 .item-nav {
-    margin: 20px;
+    text-align: center
     width: 100px;
     font-size: 15px;
     text-decoration: none;
     font-family: 'Fraunces', serif;
-    color: #F5EFE7;
-}
-
-.item-nav:hover {
-    color: #F5EFE7;
-    font-size: 17px;
+    color: #213555;
 }
 
 
@@ -96,6 +116,60 @@ main {
 .img-introducction {
     border-radius: 50%;
 }
+
+
+/* Items Hobbies */
+#items-hobbies .items-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .item-programming,
+  .item-music,
+  .item-food {
+    width: 350px;
+    height: 550px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .item-programming:hover,
+  .item-music:hover,
+  .item-food:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+  }
+  
+  .item-programming img,
+  .item-music img,
+  .item-food img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .item-programming a,
+  .item-music a,
+  .item-food a {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color: #213555;
+    font-size: 30px;
+    margin-bottom: 20px;  
+    text-decoration: none;
+}
+  
+    .item-a {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 350px;
+    }
 
 
 /* Programming */
