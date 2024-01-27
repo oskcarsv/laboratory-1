@@ -2,9 +2,6 @@
     margin: 0px;
 }
 
-body {
-}
-
 
 /* Header */
 .header-main {
@@ -14,8 +11,24 @@ body {
     align-items: center;
     justify-items: center;
     justify-content: space-between;
-    height: 90px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadein 1.5s ease-in-out;
+    color: #F5EFE7;
+    box-shadow: 0 0 10px #000;
 }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 #h1-header {
     margin-left: 100px;
@@ -45,7 +58,7 @@ body {
 /* Main */
 
 main {
-    margin: 0px 100px 0px 100px;
+    margin: 90px 100px 0px 100px;
 }
 
 
@@ -60,7 +73,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
     width: 500px;
     height: 600px;
 }
@@ -113,14 +126,12 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-}
-
-.content-languages {
     font-family: 'Forum', serif;
     color: #213555;
     font-size: 25px;
     letter-spacing: 1.5px;
     word-spacing: 5px;
+    margin-left: 50px;
 }
 
 .item-img-languages {
