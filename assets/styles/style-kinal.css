@@ -72,109 +72,126 @@ body {
 
 #quienessomos {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.vision,
+.mision,
+.valores {
+    width: 350px;
+    height: 550px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.vision:hover,
+.mision:hover,
+.valores:hover {
+    background-color: #FC6736;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+.h2quienes {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color: #213555;
+    font-size: 40px;
+    margin: 70px 0px 30px 0px;
+}
+
+.text-quienes {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #213555;
+    font-size: 20px;
+    margin: 70px 0px 30px 0px;
+
 }
 
 
-
-
-
-
-
+/*Ciclos*/
 .container-grado {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.text-ciclos {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #213555;
+    font-size: 20px;
+    margin: 70px 0px 30px 0px;
+
 }
 
 .container-ciclo-basico,
 .container-ciclo-diversificado,
 .container-escuela-tecnica {
-    text-align: center;
-    width: 270px;
+    width: 350px;
+    height: 600px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.container-ciclo-basico:hover,
+.container-ciclo-diversificado:hover,
+.container-escuela-tecnica:hover {
+    background-color: #FC6736;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
 }
 
 .img-ciclo-basico img,
 .img-ciclo-diversificado img,
 .img-escuela-tecnica img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
-.content-ciclo-basico,
-.content-ciclo-diversificado,
-.container-escuela-tecnica div {
-    margin-top: 10px;
-}
 
-.patrocinadores {
+/*Partners*/
+#partners {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    /* Ajusta según tus necesidades, para centrar verticalmente también */
 }
 
-.content-patrocinadores {
-    max-width: 600px;
-    /* Ajusta según tus necesidades */
+.h2-partners {
     text-align: center;
-    font-size: 18px;
-}
-
-.sponsors {
-    width: 100%;
-}
-
-.tittle-sponsors {
-    text-align: center;
-    color: blue;
-    font-size: 24px;
-}
-
-.img-sponsors {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.img-sponsors img {
-    max-width: 100%;
-    margin-top: 10px;
-    /* Ajusta según el espacio deseado entre las imágenes */
-
-}
-
-.partners {
-    width: 100%;
-}
-
-.tittle-partners {
-    text-align: center;
-    color: blue;
-    font-size: 24px;
-}
+    font-family: 'Fraunces', serif;
+    color: #213555;
+    font-size: 40px;
+    margin: 70px 0px 30px 0px;
+}   
 
 .img-partners {
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-.img-partners img {
-    max-width: 100%;
-    margin-top: 10px;
-    /* Ajusta según el espacio deseado entre las imágenes */
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 
 /*footer*/
 footer {
-    background-color:blue;
+    background-color: #0C2D57;
     color: white;
     width: 100%;
 }
